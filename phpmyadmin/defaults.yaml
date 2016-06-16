@@ -1,0 +1,7 @@
+# -*- coding: utf-8 -*-
+# vim: ft=yaml
+phpmyadmin:
+  package: phpmyadmin
+  dbconfig_install: False
+  setup-password: ' '
+  webserver: ' '
