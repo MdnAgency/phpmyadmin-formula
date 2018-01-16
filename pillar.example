@@ -2,5 +2,5 @@ phpmyadmin:
   lookup:
     packages: phpmyadmin
     dbconfig_install: True
-    setup-password: ' '
+    setup_password: ' '
     webserver: ' '
