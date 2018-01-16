@@ -14,8 +14,8 @@ phpmyadmin_debconf:
     - name: phpmyadmin
     - data:
        'phpmyadmin/dbconfig-install': {'type': 'boolean', 'value': '{{ phpmyadmin.dbconfig-install }}'}
-       'phpmyadmin/setup-password': {'type': 'password', 'value', '{{ phpmyadmin.setup-password }}'}
-       'phpmyadmin/password-confirm': {'type': 'password', 'value', '{{ phpmyadmin.setup-password }}'}
+       'phpmyadmin/setup-password': {'type': 'password', 'value', '{{ phpmyadmin.setup_password }}'}
+       'phpmyadmin/password-confirm': {'type': 'password', 'value', '{{ phpmyadmin.setup_password }}'}
        'phpmyadmin/mysql/admin-pass': {'type': 'password', 'value', ' '}
        'phpmyadmin/mysql/app-pass': {'type': 'password', 'value', ' '}
        'phpmyadmin/reconfigure-webserver': {'type': 'multiselect', 'value': '{{ phpmyadmin.webserver }}' }
