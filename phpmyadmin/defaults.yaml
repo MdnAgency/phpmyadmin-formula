@@ -3,5 +3,5 @@
 phpmyadmin:
   package: phpmyadmin
   dbconfig_install: False
-  setup-password: ' '
+  setup_password: ' '
   webserver: ' '
