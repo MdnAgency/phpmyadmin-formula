@@ -3,7 +3,7 @@
 #!jinja|yaml
 
 {% from "phpmyadmin/map.jinja" import phpmyadmin with context %}
-{% set mysql_root_password = salt['pillar.get']('mysql:server:root_password', salt['grains.             get']('server_id')) %}
+{% set mysql_root_password = salt['pillar.get']('mysql:server:root_password', salt['grains.get']('server_id')) %}
 
 phpmyadmin_debconf_utils:
   pkg.installed:
